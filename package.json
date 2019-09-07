@@ -4,5 +4,33 @@
   "main": "index.js",
   "repository": "https://github.com/wz980701/react-practice.git",
   "author": "<779963847@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "8.0.6",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "3.2.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "html-webpack-plugin": "3.2.0",
+    "node-sass": "4.12.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "1.0.0",
+    "uglifyjs-webpack-plugin": "1",
+    "url-loader": "2.1.0",
+    "webpack": "3.10.0",
+    "webpack-cli": "3.3.8",
+    "webpack-dev-server": "2.9.7"
+  },
+  "dependencies": {
+    "@babel/preset-react": "7.0.0",
+    "file-loader": "4.2.0",
+    "font-awesome": "4.7.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  }
 }
